@@ -1,0 +1,135 @@
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: goldenrod;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) ;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(85, 83, 83);
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+    letter-spacing: 5px;
+    border-style: solid;
+}
+
+.text,#message,#sum{
+    text-decoration: solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 15px 0px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.text{
+    word-wrap: normal;
+    max-width: 400px;
+}
+
+body{
+    background-image: url("table.png");
+    background-size: cover;
+}
+
+#start,.new{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: goldenrod;
+    font-weight: bolder;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) ;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(85, 83, 83);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    letter-spacing: 5px;
+}
+
+#choice{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+    word-wrap: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3) ;
+    padding: 10px 5px;
+    border-radius: 30px;
+    background-color: rgb(85, 83, 83);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    letter-spacing: 5px;
+    line-height: 26px;
+    height: 50px;
+    width: 350px;
+    border-style: solid;
+    border-color: rgb(128, 110, 110);
+    mix-blend-mode:luminosity
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.div31{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.div32{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: goldenrod;
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: rgb(85, 83, 83);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(128, 110, 110);
+    height: 90px;
+    margin-top: 10px;
+}
+
+#player,#token{
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    letter-spacing: 5px;
+    margin: 5px 0px;
+    word-wrap:break-word;
+    max-width: 300px;
+}
+
+.div4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+}
